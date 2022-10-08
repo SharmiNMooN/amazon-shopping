@@ -18,6 +18,9 @@ function App() {
         },
         {
           path: "/order",
+          loader: () => {
+            return fetch("products.json");
+          },
           element: <Orders></Orders>,
         },
         {
