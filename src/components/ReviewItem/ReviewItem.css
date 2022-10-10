@@ -29,6 +29,11 @@
   border: 0;
   background-color: rgba(235, 87, 87, 0.3);
 }
+
+.btn-delete :hover {
+  background-color: blue;
+  cursor: pointer;
+}
 .delete-icon {
   color: #eb5757;
   font-size: 31px;
